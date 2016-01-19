@@ -10,6 +10,8 @@
 		89FCB4AD1C4DD554008DAF31 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89FCB4AC1C4DD554008DAF31 /* main.swift */; };
 		89FCB4B51C4DD641008DAF31 /* FunctionTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89FCB4B41C4DD641008DAF31 /* FunctionTypes.swift */; };
 		89FCB4B71C4DDDA1008DAF31 /* Closures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89FCB4B61C4DDDA1008DAF31 /* Closures.swift */; };
+		89FCB4B91C4DEBE1008DAF31 /* CaptureValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89FCB4B81C4DEBE1008DAF31 /* CaptureValues.swift */; };
+		89FCB4BB1C4DF764008DAF31 /* Autoclosures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89FCB4BA1C4DF764008DAF31 /* Autoclosures.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -30,6 +32,8 @@
 		89FCB4B31C4DD588008DAF31 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		89FCB4B41C4DD641008DAF31 /* FunctionTypes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FunctionTypes.swift; sourceTree = "<group>"; };
 		89FCB4B61C4DDDA1008DAF31 /* Closures.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Closures.swift; sourceTree = "<group>"; };
+		89FCB4B81C4DEBE1008DAF31 /* CaptureValues.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CaptureValues.swift; sourceTree = "<group>"; };
+		89FCB4BA1C4DF764008DAF31 /* Autoclosures.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Autoclosures.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +70,8 @@
 				89FCB4AC1C4DD554008DAF31 /* main.swift */,
 				89FCB4B41C4DD641008DAF31 /* FunctionTypes.swift */,
 				89FCB4B61C4DDDA1008DAF31 /* Closures.swift */,
+				89FCB4B81C4DEBE1008DAF31 /* CaptureValues.swift */,
+				89FCB4BA1C4DF764008DAF31 /* Autoclosures.swift */,
 			);
 			path = "swift-closure-example";
 			sourceTree = "<group>";
@@ -129,6 +135,8 @@
 			files = (
 				89FCB4AD1C4DD554008DAF31 /* main.swift in Sources */,
 				89FCB4B51C4DD641008DAF31 /* FunctionTypes.swift in Sources */,
+				89FCB4B91C4DEBE1008DAF31 /* CaptureValues.swift in Sources */,
+				89FCB4BB1C4DF764008DAF31 /* Autoclosures.swift in Sources */,
 				89FCB4B71C4DDDA1008DAF31 /* Closures.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
