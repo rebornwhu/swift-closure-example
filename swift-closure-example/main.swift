@@ -82,20 +82,20 @@ print(customersInLine.count)
 //print(customersInLine.count)
 
 // Version 4 - @autoclosure(escaping)
-var customerProviders: [() -> String] = []
-func collectCustomerProviders(@autoclosure(escaping)
-    customerProvider: () -> String) {
-    customerProviders.append(customerProvider)
-}
-
-collectCustomerProviders(customersInLine.removeAtIndex(0))
-collectCustomerProviders(customersInLine.removeAtIndex(0))
-
-print("collected \(customerProviders.count) closures")
-
-for customerProvider in customerProviders {
-    print("Now serving \(customerProvider())")
-}
+//var customerProviders: [() -> String] = []
+//func collectCustomerProviders(@autoclosure(escaping)
+//    customerProvider: () -> String) {
+//    customerProviders.append(customerProvider)
+//}
+//
+//collectCustomerProviders(customersInLine.removeAtIndex(0))
+//collectCustomerProviders(customersInLine.removeAtIndex(0))
+//
+//print("collected \(customerProviders.count) closures")
+//
+//for customerProvider in customerProviders {
+//    print("Now serving \(customerProvider())")
+//}
 
 
 
